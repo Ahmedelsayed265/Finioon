@@ -41,7 +41,7 @@ document.addEventListener("click", function (event) {
 var swiper = new Swiper(".testimonials", {
   loop: true,
   spaceBetween: 16,
-  speed: 2000,
+  speed: 500,
   centeredSlides: true,
   pagination: {
     el: ".testimonialsSwiperPagination",
