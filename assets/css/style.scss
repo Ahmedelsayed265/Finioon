@@ -756,65 +756,41 @@ main {
     @media screen and (max-width: 992px) {
       padding: 32px 0;
     }
-    .contact_info {
-      padding-inline-end: 12px;
+    .form {
       background: $white;
-      background-image: url("../images/bg-pattern-1.png");
-      background-repeat: no-repeat;
-      border-radius: 8px;
-      padding: 24px 16px;
+      border: 1px solid $border;
+      border-radius: 16px;
+      padding: 16px;
+    }
+    .contact_info {
+      background: $white;
+      border: 1px solid $border;
+      border-radius: 16px;
+      padding: 24px;
       height: 100%;
       h3 {
         color: $main;
-        font-size: 28px;
+        font-size: 24px;
+        margin-bottom: 8px;
+      }
+      p {
+        line-height: 24px;
       }
       h4 {
         display: flex;
         align-items: center;
-        gap: 4px;
+        gap: 12px;
         font-size: 18px;
-        color: $main;
-      }
-    }
-    .branch_row {
-      background: $white;
-      padding: 16px;
-      border-radius: 8px;
-      iframe {
-        height: 100%;
-        min-height: 250px;
-      }
-      .about_branch {
-        h3 {
-          font-size: 24px;
-          color: $second;
-          margin-bottom: 8px;
-        }
-        ul {
+        color: $second;
+        margin-bottom: 8px;
+        i {
+          width: 36px;
+          height: 36px;
+          border: 1px solid $second;
+          border-radius: 50%;
           display: flex;
-          flex-direction: column;
-          li {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            line-height: 24px;
-            color: $text;
-            b {
-              color: $main;
-            }
-            span {
-              display: flex;
-              justify-content: center;
-              width: 26px;
-            }
-            a {
-              line-height: 26px;
-              &:hover {
-                transition: $transition;
-                color: $second;
-              }
-            }
-          }
+          align-items: center;
+          justify-content: center;
         }
       }
     }
@@ -846,7 +822,7 @@ main {
           height: 100%;
           object-fit: cover;
         }
-        .time{
+        .time {
           position: absolute;
           bottom: -26px;
           left: 16px;
@@ -919,6 +895,10 @@ main {
     border-radius: 8px;
     color: $white;
     font-size: 16px;
+    transition: $transition;
+    &:hover {
+      background: $second;
+    }
   }
 }
 footer {

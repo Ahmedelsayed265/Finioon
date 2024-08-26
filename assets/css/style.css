@@ -800,65 +800,43 @@ main .contact {
     padding: 32px 0;
   }
 }
-main .contact .contact_info {
-  padding-inline-end: 12px;
+main .contact .form {
   background: #ffffff;
-  background-image: url("../images/bg-pattern-1.png");
-  background-repeat: no-repeat;
-  border-radius: 8px;
-  padding: 24px 16px;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 16px;
+}
+main .contact .contact_info {
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 24px;
   height: 100%;
 }
 main .contact .contact_info h3 {
   color: #000;
-  font-size: 28px;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+main .contact .contact_info p {
+  line-height: 24px;
 }
 main .contact .contact_info h4 {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 12px;
   font-size: 18px;
-  color: #000;
-}
-main .contact .branch_row {
-  background: #ffffff;
-  padding: 16px;
-  border-radius: 8px;
-}
-main .contact .branch_row iframe {
-  height: 100%;
-  min-height: 250px;
-}
-main .contact .branch_row .about_branch h3 {
-  font-size: 24px;
   color: #259a9f;
   margin-bottom: 8px;
 }
-main .contact .branch_row .about_branch ul {
-  display: flex;
-  flex-direction: column;
-}
-main .contact .branch_row .about_branch ul li {
+main .contact .contact_info h4 i {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #259a9f;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  gap: 8px;
-  line-height: 24px;
-  color: #999999;
-}
-main .contact .branch_row .about_branch ul li b {
-  color: #000;
-}
-main .contact .branch_row .about_branch ul li span {
-  display: flex;
   justify-content: center;
-  width: 26px;
-}
-main .contact .branch_row .about_branch ul li a {
-  line-height: 26px;
-}
-main .contact .branch_row .about_branch ul li a:hover {
-  transition: all 0.3s ease-in-out;
-  color: #259a9f;
 }
 main .latest_blogs {
   padding: 60px 0;
@@ -969,6 +947,10 @@ main .latest_blogs .blog_card .content a:hover {
   border-radius: 8px;
   color: #ffffff;
   font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.form button:hover {
+  background: #259a9f;
 }
 
 footer {
