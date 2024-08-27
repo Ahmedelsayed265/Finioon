@@ -614,6 +614,9 @@ main .about_sec {
   padding: 60px 0;
   background: #fbfefe;
 }
+main .about_sec.page {
+  background: none;
+}
 main .about_sec .img {
   height: 100%;
   width: 100%;
@@ -1008,6 +1011,34 @@ main .blog_details__section .blog_content .share_blog .social_share a:hover {
 }
 main .blog_details__section .blog_content .share_blog .social_share a:hover i {
   color: #ffffff;
+}
+main .vission {
+  padding: 0 0 60px;
+}
+main .vission .v_card {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+main .vission .v_card .icon img {
+  height: 50px;
+}
+main .vission .v_card .content h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #259a9f;
+}
+main .vission .v_card .content p {
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+  line-height: 24px;
 }
 
 .form .input_field {

@@ -580,6 +580,9 @@ main {
   .about_sec {
     padding: 60px 0;
     background: $second5;
+    &.page {
+      background: none;
+    }
     .img {
       height: 100%;
       width: 100%;
@@ -956,6 +959,38 @@ main {
               }
             }
           }
+        }
+      }
+    }
+  }
+  .vission {
+    padding: 0 0 60px;
+    .v_card {
+      background: $white;
+      box-shadow: $shadow;
+      padding: 16px;
+      border-radius: 16px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      .icon {
+        img {
+          height: 50px;
+        }
+      }
+      .content {
+        h3 {
+          text-align: center;
+          font-size: 24px;
+          color: $second;
+        }
+        p {
+          font-size: 14px;
+          color: $text;
+          text-align: center;
+          line-height: 24px;
         }
       }
     }
