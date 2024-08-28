@@ -1098,7 +1098,7 @@ main .banner_sec .content a {
   color: #ffffff;
 }
 main .why_us {
-  padding: 60px;
+  padding: 60px 0;
 }
 main .why_us .title {
   display: flex;
