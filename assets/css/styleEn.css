@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   line-height: 32px;
-  direction: rtl;
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Din", sans-serif;
@@ -1343,4 +1342,4 @@ footer .social_media ul a:hover svg path {
   to {
     transform: translateY(0%);
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=styleEn.css.map */
